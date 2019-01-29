@@ -1,2 +1,5 @@
 /frontend/node_modules/*
+/frontend/.next/static/*
+/frontend/.next/server/*
+
 /backend/node_modules/*
