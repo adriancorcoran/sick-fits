@@ -1,0 +1,7 @@
+# this file can't be empty when we start the server
+type Mutation {
+  hi: String
+}
+type Query {
+  hi: String
+}
