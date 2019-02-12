@@ -1,11 +1,16 @@
 # this file can't be empty when we start the server
-type Dog {
-  name: String!
-}
+
+# import * from './generated/prisma.graphql'
 
 type Mutation {
-  createDog(name: String!): Dog
+  createItem(
+    title: String
+    description: String
+    price: Int
+    image: String
+    largeImage: String
+  ): Item!
 }
 type Query {
-  dogs: [Dog]!
+  items: [Item]!
 }
